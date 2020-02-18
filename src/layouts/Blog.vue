@@ -12,8 +12,9 @@
 
       </nav>
     </header>
-    <slot/>
+          <slot/>
   </div>
+
 </template>
 
 <static-query>
