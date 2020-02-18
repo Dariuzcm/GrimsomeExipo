@@ -26,7 +26,7 @@ module.exports = function (api) {
       })
     }
 */
-     const { data } = await axios.get('http://35.165.90.52:1337/exposicions')
+     const { data } = await axios.get('http://35.165.90.52:1337/esposiciones')
     const collection2= actions.addCollection('Expositions')
     
     for (const item of data) {
